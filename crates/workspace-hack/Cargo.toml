@@ -15,7 +15,7 @@ publish = false
 
 ### BEGIN HAKARI SECTION
 [dependencies]
-arrayvec = { version = "0.7" }
+arrayvec = { version = "0.7.8" }
 bitflags = { version = "2", default-features = false, features = ["serde", "std"] }
 bytemuck = { version = "1", default-features = false, features = ["aarch64_simd", "derive", "extern_crate_alloc", "min_const_generics"] }
 chrono = { version = "0.4", features = ["serde"] }
