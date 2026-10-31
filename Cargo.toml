@@ -7,7 +7,7 @@ members = [
 ]
 
 [workspace.dependencies]
-anyhow = { version = "1.0.86" }
+anyhow = { version = "1.0.104" }
 # This includes a currently-unreleased fix that ensures the audio stream is actually
 # stopped and released on drop on macOS, plus zeroing of WASAPI capture
 # packets flagged AUDCLNT_BUFFERFLAGS_SILENT (loopback of an idle endpoint
@@ -49,7 +49,7 @@ sentry = { version = "0.42.0", features = [
 ] }
 tracing = "0.1.41"
 futures = "0.3.31"
-aho-corasick = "1.1.4"
+aho-corasick = "1.1.5"
 
 cidre = { git = "https://github.com/CapSoftware/cidre", rev = "bf84b67079a8", features = [
     "macos_12_7",
